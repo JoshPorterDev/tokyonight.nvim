@@ -74,7 +74,7 @@ function M.setup(config)
     VisualNOS = { bg = "#47e204" }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg = { fg = c.warning }, -- warning messages
     Whitespace = { fg = c.fg_gutter }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
-    WildMenu = { bg = c.bg_visual }, -- current match in 'wildmenu' completion
+    WildMenu = { bg = c.magenta2 }, -- current match in 'wildmenu' completion
 
     -- These groups are not listed as default vim groups,
     -- but they are defacto standard group names for syntax highlighting.
