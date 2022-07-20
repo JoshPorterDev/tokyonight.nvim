@@ -15,7 +15,7 @@ function M.setup(config)
     none = "NONE",
     bg_dark = "#0A0B0B",
     bg = "#0A0B0B",
-    bg_highlight = "#0A0B0B",
+    bg_highlight = "#0f1010",
     terminal_black = "#414868",
     fg = "#c0caf5",
     fg_dark = "#a9b1d6",
@@ -79,7 +79,7 @@ function M.setup(config)
   colors.bg_float = config.darkFloat and colors.bg_dark or colors.bg
 
   colors.bg_visual = util.darken(colors.blue0, 0.7)
-  colors.bg_search = colors.blue0
+  colors.bg_search = "#0f1010"
   colors.fg_sidebar = colors.fg_dark
 
   colors.error = colors.red1
