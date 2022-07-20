@@ -78,7 +78,7 @@ function M.setup(config)
   colors.bg_sidebar = (config.transparentSidebar and colors.none) or config.darkSidebar and colors.bg_dark or colors.bg
   colors.bg_float = config.darkFloat and colors.bg_dark or colors.bg
 
-  colors.bg_visual = util.darken(colors.bg_highlight, 0.4)
+  colors.bg_visual = util.darken(colors.fg_gutter, 0.4)
   colors.bg_search = "#0f1010"
   colors.fg_sidebar = colors.fg_dark
 
