@@ -67,7 +67,7 @@ function M.setup(config)
 
   colors.git.ignore = colors.dark3
   colors.black = util.darken(colors.bg, 0.8, "#000000")
-  colors.border_highlight = colors.blue0
+  colors.border_highlight = colors.blue
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
