@@ -19,7 +19,7 @@ function M.setup(config)
     terminal_black = "#414868",
     fg = "#c0caf5",
     fg_dark = "#a9b1d6",
-    fg_gutter = "#3b4261",
+    fg_gutter = "#47e204",
     dark3 = "#545c7e",
     comment = "#565f89",
     dark5 = "#737aa2",
