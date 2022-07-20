@@ -23,7 +23,7 @@ function M.setup(config)
     dark3 = "#545c7e",
     comment = "#565f89",
     dark5 = "#737aa2",
-    blue0 = "47e204",
+    blue0 = "#47e204",
     blue = "#7aa2f7",
     cyan = "#7dcfff",
     blue1 = "#2ac3de",
